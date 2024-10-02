@@ -1,0 +1,105 @@
+
+#python files
+
+__pycache__/
+
+#logs
+*.log
+missed_log.txt
+
+# retry download logs json 
+failed_downloads_log.json
+
+# ignore .py and .ipynb test files
+test.ipynb
+test.py
+
+# ignore .py and .ipynb test files
+testing_code/
+
+images/
+output/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# VS Studio Code
+.vscode
+
+
+# PyCharm
+.idea/
+.env
+.myenv2
+.myenv2/
+
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
+# pyenv
+.python-version
+
+# virtualenv
+.venv
+venv/
+ENV/
+virtualenv/
+
+#configuration file
+# config.py
+config.ini
+
+#log files
+*.log
+
+# downloaded reports
+snappretail_reports/
+image/
+pdf/
+csv/
+REPORTS/
+DATA/
+
+# test files
+test.py
+test.ipynb
+
+# downloaded reports
+snappretail_reports/
+image/
+pdf/
+
+#other
+autoencoders/myenv/
+autoencoders/logger/
+autoencoders/ML_model/
+autoencoders/best_weights/
+Reports/logs/
+library/best_weights/
+library/ML_model/
+library/virtualenv
+library/logger
+library/__pycache__
+venv/
+.env/
+
