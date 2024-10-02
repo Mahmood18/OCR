@@ -10,3 +10,4 @@ llama-index-llms-gemini==0.1.9
 llama-index
 llama-index-multi-modal-llms-gemini==0.1.8
 streamlit==1.38.0
+gunicorn==20.1.0
