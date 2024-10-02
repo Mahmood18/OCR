@@ -15,6 +15,12 @@ import json
 import time
 from config import *
 from setup_model import *
+import nltk
+nltk_data_dir = "/tmp/nltk_data"
+nltk.download("punkt", download_dir=nltk_data_dir)
+
+# Set the NLTK data path to the temporary directory
+nltk.data.path.append(nltk_data_dir)
 
 
 def save_pydantic_list_to_csv(pydantic_responses: List[InvoiceData], output_file: str):

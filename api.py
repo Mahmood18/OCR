@@ -130,6 +130,8 @@ st.markdown(
 IMAGE_DIR = os.path.join(WORKING_DIRECTORY_PATH, 'images')
 OUTPUT_DIR = os.path.join(WORKING_DIRECTORY_PATH, 'output')
 
+
+
 initialise(IMAGE_DIR)
 initialise(OUTPUT_DIR)
 
